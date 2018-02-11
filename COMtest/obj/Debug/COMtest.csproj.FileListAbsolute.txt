@@ -1,0 +1,10 @@
+D:\Projects\COMtest\COMtest\bin\Debug\COMtest.exe.config
+D:\Projects\COMtest\COMtest\bin\Debug\COMtest.exe
+D:\Projects\COMtest\COMtest\bin\Debug\COMtest.pdb
+D:\Projects\COMtest\COMtest\obj\Debug\COMtest.Form1.resources
+D:\Projects\COMtest\COMtest\obj\Debug\COMtest.Properties.Resources.resources
+D:\Projects\COMtest\COMtest\obj\Debug\COMtest.csproj.GenerateResource.Cache
+D:\Projects\COMtest\COMtest\obj\Debug\COMtest.csproj.CoreCompileInputs.cache
+D:\Projects\COMtest\COMtest\obj\Debug\COMtest.exe
+D:\Projects\COMtest\COMtest\obj\Debug\COMtest.pdb
+D:\Projects\COMtest\COMtest\obj\Debug\COMtest.csprojResolveAssemblyReference.cache
