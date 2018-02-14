@@ -17,31 +17,18 @@ namespace COMtest
         public Form1()
         {
             InitializeComponent();
-            ports = SerialPort.GetPortNames();
-            if (ports.Length != 0)
-            {
-                comboBox1.DataSource = ports;
-                comboBox1.SelectedItem = ports[0];
-            }
         }
         
         private void button1_Click(object sender, EventArgs e)
         {
             if (portname != "")
             {
-                int b;
                 SerialPort sp = new SerialPort(portname, 115200, Parity.None, 8, StopBits.One);
                 if (sp.IsOpen)
                 { sp.Close(); }
                 sp.Open();
                 byte[] toBytes = Encoding.ASCII.GetBytes("ON\r");
                 sp.Write(toBytes, 0, 3);
-                string resp;
-                b = sp.BytesToRead;
-                byte[] respp = new byte[b];
-                sp.Read(respp, 0, b);
-                resp = Encoding.ASCII.GetString(respp);
-                MessageBox.Show(resp);
                 sp.Close();
                 sp.Dispose();
             }
@@ -51,20 +38,12 @@ namespace COMtest
             {
             if (portname != "")
             {
-                int b;
                 SerialPort sp = new SerialPort(portname, 115200, Parity.None, 8, StopBits.One);
                 if (sp.IsOpen)
                 { sp.Close(); }
                 sp.Open();
                 byte[] toBytes = Encoding.ASCII.GetBytes("OFF\r");
                 sp.Write(toBytes, 0, 4);
-                string resp;
-
-                b = sp.BytesToRead;
-                byte[] respp = new byte[b];
-                sp.Read(respp, 0, b);
-                resp = Encoding.ASCII.GetString(respp);
-                MessageBox.Show(resp);
                 sp.Close();
                 sp.Dispose();
             }
@@ -78,7 +57,53 @@ namespace COMtest
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            ports = SerialPort.GetPortNames();
+            if (ports.Length != 0)
+            {
+                comboBox1.DataSource = ports;
+                comboBox1.SelectedItem = ports[0];
+            }
+            else
+            {
+                comboBox1.Enabled = false;
+                button1.Enabled = false;
+                button2.Enabled = false;
+                button3.Enabled = false;
+                textBox1.Enabled = false;
+            }
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (portname != "" && textBox1.Text != "")
+            { 
+            int num;
+            string cmd;
+            if (Int32.TryParse(textBox1.Text, out num))
+            {
+                SerialPort sp = new SerialPort(portname, 115200, Parity.None, 8, StopBits.One);
+                if (sp.IsOpen)
+                { sp.Close(); }
+                sp.Open();
+                cmd = "PRINT NUM " + num.ToString() + "\r";
+                byte[] toBytes = Encoding.ASCII.GetBytes(cmd);
+                sp.Write(toBytes, 0, cmd.Length);
+                sp.Close();
+                sp.Dispose();
+            }
+            else
+            {
+                SerialPort sp = new SerialPort(portname, 115200, Parity.None, 8, StopBits.One);
+                if (sp.IsOpen)
+                { sp.Close(); }
+                sp.Open();
+                cmd = "PRINT CHAR " + textBox1.Text + "\r";
+                byte[] toBytes = Encoding.ASCII.GetBytes(cmd);
+                sp.Write(toBytes, 0, cmd.Length);
+                sp.Close();
+                sp.Dispose();
+            }
+            }
         }
     }
 }

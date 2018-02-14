@@ -8,3 +8,13 @@ D:\Projects\COMtest\COMtest\obj\Debug\COMtest.csproj.CoreCompileInputs.cache
 D:\Projects\COMtest\COMtest\obj\Debug\COMtest.exe
 D:\Projects\COMtest\COMtest\obj\Debug\COMtest.pdb
 D:\Projects\COMtest\COMtest\obj\Debug\COMtest.csprojResolveAssemblyReference.cache
+C:\Users\ekonnova\Documents\COMtest\COMtest\bin\Debug\COMtest.exe.config
+C:\Users\ekonnova\Documents\COMtest\COMtest\bin\Debug\COMtest.exe
+C:\Users\ekonnova\Documents\COMtest\COMtest\bin\Debug\COMtest.pdb
+C:\Users\ekonnova\Documents\COMtest\COMtest\obj\Debug\COMtest.csprojResolveAssemblyReference.cache
+C:\Users\ekonnova\Documents\COMtest\COMtest\obj\Debug\COMtest.Form1.resources
+C:\Users\ekonnova\Documents\COMtest\COMtest\obj\Debug\COMtest.Properties.Resources.resources
+C:\Users\ekonnova\Documents\COMtest\COMtest\obj\Debug\COMtest.csproj.GenerateResource.Cache
+C:\Users\ekonnova\Documents\COMtest\COMtest\obj\Debug\COMtest.csproj.CoreCompileInputs.cache
+C:\Users\ekonnova\Documents\COMtest\COMtest\obj\Debug\COMtest.exe
+C:\Users\ekonnova\Documents\COMtest\COMtest\obj\Debug\COMtest.pdb
