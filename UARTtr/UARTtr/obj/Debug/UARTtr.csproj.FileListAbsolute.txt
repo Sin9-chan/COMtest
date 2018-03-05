@@ -1,0 +1,10 @@
+E:\Projects\UARTtr\UARTtr\bin\Debug\UARTtr.exe.config
+E:\Projects\UARTtr\UARTtr\bin\Debug\UARTtr.exe
+E:\Projects\UARTtr\UARTtr\bin\Debug\UARTtr.pdb
+E:\Projects\UARTtr\UARTtr\obj\Debug\UARTtr.Form1.resources
+E:\Projects\UARTtr\UARTtr\obj\Debug\UARTtr.Properties.Resources.resources
+E:\Projects\UARTtr\UARTtr\obj\Debug\UARTtr.csproj.GenerateResource.Cache
+E:\Projects\UARTtr\UARTtr\obj\Debug\UARTtr.csproj.CoreCompileInputs.cache
+E:\Projects\UARTtr\UARTtr\obj\Debug\UARTtr.exe
+E:\Projects\UARTtr\UARTtr\obj\Debug\UARTtr.pdb
+E:\Projects\UARTtr\UARTtr\obj\Debug\UARTtr.csprojResolveAssemblyReference.cache
