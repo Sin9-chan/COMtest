@@ -27,10 +27,13 @@ namespace UARTtr
             { sp.Close(); }
             sp.Open();
             byte[] toBytes = Encoding.ASCII.GetBytes("ON");
-            sp.Write(toBytes, 0, 3);
+            sp.Write(toBytes, 0, 2);
+            byte[] From = new byte[sp.BytesToRead];
+            sp.Read(From, 0, sp.BytesToRead);
+            textBox1.Text += Encoding.ASCII.GetString(From);
+            textBox1.Text += sp.BytesToRead.ToString();
             sp.Close();
             sp.Dispose();
-            textBox1.Text += sp.ReadExisting();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -40,7 +43,7 @@ namespace UARTtr
             { sp.Close(); }
             sp.Open();
             byte[] toBytes = Encoding.ASCII.GetBytes("OFF");
-            sp.Write(toBytes, 0, 4);
+            sp.Write(toBytes, 0, 3);
             sp.Close();
             sp.Dispose();
         }

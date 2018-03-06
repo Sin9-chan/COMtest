@@ -8,3 +8,13 @@ E:\Projects\UARTtr\UARTtr\obj\Debug\UARTtr.csproj.CoreCompileInputs.cache
 E:\Projects\UARTtr\UARTtr\obj\Debug\UARTtr.exe
 E:\Projects\UARTtr\UARTtr\obj\Debug\UARTtr.pdb
 E:\Projects\UARTtr\UARTtr\obj\Debug\UARTtr.csprojResolveAssemblyReference.cache
+E:\Docs\COMtest\UARTtr\UARTtr\bin\Debug\UARTtr.exe.config
+E:\Docs\COMtest\UARTtr\UARTtr\bin\Debug\UARTtr.exe
+E:\Docs\COMtest\UARTtr\UARTtr\bin\Debug\UARTtr.pdb
+E:\Docs\COMtest\UARTtr\UARTtr\obj\Debug\UARTtr.csprojResolveAssemblyReference.cache
+E:\Docs\COMtest\UARTtr\UARTtr\obj\Debug\UARTtr.Form1.resources
+E:\Docs\COMtest\UARTtr\UARTtr\obj\Debug\UARTtr.Properties.Resources.resources
+E:\Docs\COMtest\UARTtr\UARTtr\obj\Debug\UARTtr.csproj.GenerateResource.Cache
+E:\Docs\COMtest\UARTtr\UARTtr\obj\Debug\UARTtr.csproj.CoreCompileInputs.cache
+E:\Docs\COMtest\UARTtr\UARTtr\obj\Debug\UARTtr.exe
+E:\Docs\COMtest\UARTtr\UARTtr\obj\Debug\UARTtr.pdb
